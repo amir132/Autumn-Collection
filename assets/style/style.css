@@ -66,7 +66,7 @@ h1 {
   padding: 16px 40px 16px 40px;
   border-radius: 6px;
   background-color: #fdde67;
-  z-index: 5;
+  z-index: 2;
 }
 .Open-Collection p {
   font-family: var(--lato-font);
@@ -75,13 +75,13 @@ h1 {
   line-height: 16.8px;
   color: #181818;
 }
-header img {
+.men-jacket {
   width: 208.08px;
   height: 391px;
   position: absolute;
   top: 249px;
   left: 75.96px;
-  z-index: 2;
+  z-index: 1;
 }
 .green-circle-1 {
   width: 192.63px;
@@ -91,7 +91,6 @@ header img {
   left: 140.15px;
   border-radius: 50%;
   background-color: #1b2d22;
-  z-index: 1;
 }
 .green-circle-2 {
   width: 198.55px;
@@ -101,7 +100,6 @@ header img {
   left: 27.22px;
   border-radius: 50%;
   background-color: #1b2d22;
-  z-index: 1;
 }
 .tabs {
   display: flex;
@@ -112,21 +110,40 @@ header img {
   height: 18px;
   flex-wrap: nowrap;
   top: 555.02px;
-  left: 1gitpx;
+  left: 141px;
   flex-direction: row;
-  z-index: 4;
+  z-index: 1;
 }
 
 .tab-selected {
   width: 18px;
   height: 18px;
   border-radius: 50%;
-  background-color: #FFFFFF;
-  ;
+  background-color: #ffffff;
 }
 .tab-unselected {
   width: 14px;
   height: 14px;
-  background-color: #FFFFFF33;
+  background-color: #ffffff33;
   border-radius: 50%;
+}
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  width: 360px;
+  height: 48px;
+  position: fixed;
+  bottom: 0px;
+  margin: 0;
+  padding: 12px 15px 12px 15px;
+  background-color: #fdde67;
+  box-shadow: 0px 0px 4px 0px #00000040;
+  z-index: 3;
+}
+.nav-logo {
+    display: block;
+  width: 24px;
+  height: 24px;
+  color: #181818;
+  z-index: 5;
 }
