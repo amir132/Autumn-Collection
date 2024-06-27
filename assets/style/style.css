@@ -191,7 +191,6 @@ h1 {
   background-color: #ffffff;
   width: 360px;
   height: 817.39px;
-  height: 900.39px;
   padding: 32px 15px;
   margin: 0;
 }
@@ -201,6 +200,10 @@ h2 {
   font-weight: 400;
   line-height: 32px;
   margin-bottom: 32px;
+}
+.jacket-sunglasses {
+  width: 330px;
+  height: 689.39px;
 }
 .jacket {
   width: 330px;
@@ -264,6 +267,7 @@ h2 {
   background-color: #fdde67;
   position: relative;
   padding: 20.33px 18px 0 0;
+  margin: 0;
 }
 .sunglasses-h3 {
   position: absolute;
@@ -307,7 +311,6 @@ h2 {
   height: 399px;
   padding: 32px 15px;
   background-color: #e9e9e9;
-  margin-bottom: 90px;
 }
 .products {
   display: flex;
@@ -318,9 +321,8 @@ h2 {
   overflow-x: scroll;
 }
 .product-main-box {
-  /* background-color: #3a5e46; */
-flex-grow: 1;
-flex-shrink: 0;
+  flex-grow: 1;
+  flex-shrink: 0;
   width: 227.75px;
   height: 271px;
 }
@@ -341,6 +343,25 @@ flex-shrink: 0;
   top: 17.92px;
   right: 15.75px;
 }
+.off-price {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 13.14%;
+  height: 5.76%;
+  padding: 3px 6px 3px 6px;
+  border-radius: 4px;
+  background-color: #3a5e46;
+  position: absolute;
+  top: 16px;
+  left: 16px;
+}
+.off-price p {
+  font-family: var(--roboto-font);
+  font-size: 8px;
+  font-weight: 100;
+  color: #fff;
+}
 .product-img {
   width: 132.99px;
   height: 148.36px;
@@ -359,12 +380,23 @@ flex-shrink: 0;
   font-weight: 500;
   line-height: 18.75px;
 }
+.price-exe {
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 18.75px;
+  color: #00000033;
+  display: inline-block;
+  text-decoration: line-through;
+  margin-right: 8px;
+}
 .price {
   font-family: var(--roboto-font);
   font-size: 14px;
   font-weight: 300;
   line-height: 16.41px;
   color: #00000099;
+  display: inline-block;
 }
 .shopping-cart-logo {
   width: 16px;
@@ -377,4 +409,56 @@ flex-shrink: 0;
   background-color: #fdde67;
   padding: 7px;
 }
-
+footer {
+  width: 100%;
+  background-color: #3b5f47;
+  padding: 32px 15px 32px 15px;
+  gap: 10px;
+}
+.footer-container {
+  width: 100%;
+  height: 146px;
+  margin-bottom: 32px;
+}
+.footer-container h2 {
+  font-family: var(--lato-font);
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 32px;
+  text-align: center;
+  color: #ffffff;
+  margin-bottom: 32px;
+}
+.counter {
+  width: 252px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.timer {
+  width: 54px;
+}
+.num {
+  width: 54px;
+  height: 56px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #18181840;
+  border-radius: 8px;
+  margin-bottom: 12px;
+}
+.num p {
+  font-family: var(--roboto-font);
+  font-size: 24px;
+  font-weight: 700;
+  color: #fff;
+}
+.unit {
+  font-family: var(--roboto-font);
+  font-size: 12px;
+  font-weight: 300;
+  line-height: 14.06px;
+  text-align: center;
+  color: #fff;
+}
