@@ -5,7 +5,10 @@
   --lato-font: "lato";
   --roboto-font: "roboto";
 }
-p {
+p,
+h1,
+h2,
+h3 {
   margin: 0;
   padding: 0;
 }
@@ -197,7 +200,7 @@ h2 {
   font-size: 32px;
   font-weight: 400;
   line-height: 32px;
-  margin: 0 114px 32px 0;
+  margin-bottom: 32px;
 }
 .jacket {
   width: 330px;
@@ -270,9 +273,9 @@ h2 {
   font-size: 15.5px;
   font-weight: 900;
   line-height: 21px;
-  text-align: center;  
+  text-align: center;
 }
-.sunglasses a{
+.sunglasses a {
   text-decoration: none;
   color: #000;
 }
@@ -280,26 +283,98 @@ h2 {
   padding: 0;
   margin: 0;
 }
-.off40{
+.off40 {
   width: 95px;
-height: 28px;
-position: absolute;
-top: 108px;
-right: 40px;
-font-family: var(--roboto-font);
-font-size: 24px;
-font-weight: 700;
-line-height: 28.13px;
+  height: 28px;
+  position: absolute;
+  top: 108px;
+  right: 40px;
+  font-family: var(--roboto-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28.13px;
 }
 
-.sunglasses img{
+.sunglasses img {
   width: 189.66px;
-height: 216.74px;
-display: block;
-position: absolute;
-bottom: 0;
+  height: 216.74px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+}
+.best-sellers {
+  width: 360px;
+  height: 399px;
+  padding: 32px 15px;
+  background-color: #e9e9e9;
+  margin-bottom: 90px;
+}
+.products {
+  display: flex;
+  width: 1, 016px;
+  height: 271px;
+  gap: 35px;
+  overflow: hidden;
+  overflow-x: scroll;
+}
+.product-main-box {
+  /* background-color: #3a5e46; */
+flex-grow: 1;
+flex-shrink: 0;
+  width: 227.75px;
+  height: 271px;
+}
+.product-box {
+  width: 227.75px;
+  height: 220px;
+  margin-bottom: 16px;
+  padding: 0;
+  position: relative;
+  background-color: #ffffff;
+  border-radius: 24px;
+}
 
-
-
+.favorit-logo {
+  width: 24.01px;
+  height: 21.1px;
+  position: absolute;
+  top: 17.92px;
+  right: 15.75px;
+}
+.product-img {
+  width: 132.99px;
+  height: 148.36px;
+  position: absolute;
+  top: 31.32px;
+  left: 43.5px;
+}
+.buy {
+  width: 227.75px;
+  display: flex;
+  justify-content: space-between;
+}
+.name {
+  font-family: var(--roboto-font);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 18.75px;
+}
+.price {
+  font-family: var(--roboto-font);
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16.41px;
+  color: #00000099;
+}
+.shopping-cart-logo {
+  width: 16px;
+  height: 16px;
+}
+.shopping-cart-box {
+  width: 30px;
+  height: 30px;
+  border-radius: 6px;
+  background-color: #fdde67;
+  padding: 7px;
 }
 
