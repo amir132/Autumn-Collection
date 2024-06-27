@@ -53,7 +53,6 @@ h1 {
 }
 .button-collection {
   width: 180px;
-  display: block;
   padding: 0;
   margin-right: 165px;
   margin-left: 15px;
@@ -61,14 +60,14 @@ h1 {
   text-decoration: none;
   display: flex;
 }
-.Open-Collection {
+.open-collection {
   width: 180px;
   padding: 16px 40px 16px 40px;
   border-radius: 6px;
   background-color: #fdde67;
   z-index: 2;
 }
-.Open-Collection p {
+.open-collection p {
   font-family: var(--lato-font);
   font-size: 14px;
   font-weight: 400;
@@ -186,7 +185,7 @@ h1 {
   height: 10px;
 }
 .new-collection {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   width: 360px;
   height: 817.39px;
   top: 672px;
@@ -199,5 +198,62 @@ h2 {
   font-weight: 400;
   line-height: 32px;
   margin: 0 114px 32px 0;
+}
+.jacket {
+  width: 330px;
+  height: 410.9px;
+  border-radius: 24px;
+  background-color: #c5c2ca;
+  padding: 18px 18px 0 18px;
+  position: relative;
+  margin-bottom: 32px;
+}
+.jacket a {
+  text-decoration: none;
+  font-family: var(--lato-font);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 18px;
+  display: block;
+  color: #000;
+}
+.jacket h3 {
+  padding: 0;
+  margin: 0;
+}
+.jacket img {
+  width: 197.28px;
+  height: 339.03px;
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 66.36px;
+}
+.button-discover {
+  width: 167px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 6px;
+}
+.discover {
+  width: 167px;
+  padding: 16px 40px 16px 40px;
+  border-radius: 6px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 18px;
+  right: 18px;
+  background-color: #000;
+  color: #ffffff;
+  font-family: var(--lato-font);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16.8px;
+  
+}
+.sunglasses{
+  width: 330px;
+height: 245.61px;
+border-radius: 24px;
+background-color: #FDDE67;
 }
 
