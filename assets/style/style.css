@@ -471,7 +471,7 @@ h3 {
     display: none;
   }
 }
-  
+
 @media screen and (min-width: 420px) {
   body {
     background-color: antiquewhite;
@@ -633,12 +633,11 @@ h3 {
     height: 110px;
     border-radius: 50%;
     padding: 15px;
-    background: #FDDE67;
+    background: #fdde67;
     position: absolute;
     top: 242.63px;
     right: 552.85px;
     z-index: 2;
-    
   }
   .special-offer p {
     width: 80px;
@@ -649,8 +648,7 @@ h3 {
     font-weight: 700;
     line-height: 30.47px;
     color: #181818;
-text-align: center;
-
+    text-align: center;
   }
   .green-circle-1 {
     border-radius: 50%;
@@ -755,5 +753,117 @@ text-align: center;
     display: block;
     height: 40px;
   }
-  
+  .new-collection {
+    background-color: #ffffff;
+    width: 1, 540px;
+    height: 808.75px;
+    margin: 0;
+    padding: 70px 110px;
+  }
+  h2 {
+    font-family: var(--lato-font);
+    margin-bottom: 70px;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+  }
+  .jacket-sunglasses {
+    display: flex;
+    justify-content: space-between;
+    width: 1320px;
+    height: 550.75px;
+  }
+  .jacket {
+    border-radius: 24px;
+    background-color: #c5c2ca;
+    padding: 24px 24px 0 25px;
+    position: relative;
+    margin-bottom: 32px;
+    width: 500px;
+    height: 550.75px;
+    top: 118px;
+  }
+  .jacket-h3 {
+    text-decoration: none;
+    font-family: var(--lato-font);
+    display: block;
+    color: #000;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+  }
+  .jacket h3 {
+    padding: 0;
+    margin: 0;
+  }
+  .jacket img {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 110.67px;
+    width: 278.66px;
+    height: 478.88px;
+  }
+  .button-discover {
+    display: block;
+    width: 167px;
+    border-radius: 6px;
+    position: absolute;
+    bottom: 24px;
+    right: 24px;
+    text-decoration: none;
+  }
+  .discover {
+    width: 167px;
+    padding: 16px 40px 16px 40px;
+    border-radius: 6px;
+    text-decoration: none;
+    background-color: #000;
+    color: #ffffff;
+    font-family: var(--lato-font);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.8px;
+  }
+  .sunglasses {
+    border-radius: 24px;
+    background-color: #fdde67;
+    position: relative;
+    margin: 0;
+    width: 740px;
+    height: 550.75px;
+  }
+  .sunglasses-h3 {
+    position: absolute;
+    right: 18px;
+    width: 139.8px;
+    font-family: var(--lato-font);
+    font-size: 15.5px;
+    font-weight: 900;
+    line-height: 21px;
+    text-align: center;
+  }
+  .sunglasses a {
+    text-decoration: none;
+    color: #000;
+  }
+  .off40 {
+    width: 95px;
+    height: 28px;
+    position: absolute;
+    top: 108px;
+    right: 40px;
+    font-family: var(--roboto-font);
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28.13px;
+  }
+
+  .sunglasses img {
+    width: 189.66px;
+    height: 216.74px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+  }
 }
