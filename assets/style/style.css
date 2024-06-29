@@ -339,8 +339,8 @@ h3 {
   }
 
   .favorit-logo {
-    width: 24.01px;
-    height: 21.1px;
+    width: 24px;
+    height: 24px;
     position: absolute;
     top: 17.92px;
     right: 15.75px;
@@ -781,7 +781,6 @@ h3 {
     margin-bottom: 32px;
     width: 500px;
     height: 550.75px;
-    top: 118px;
   }
   .jacket-h3 {
     text-decoration: none;
@@ -835,35 +834,192 @@ h3 {
   }
   .sunglasses-h3 {
     position: absolute;
-    right: 18px;
-    width: 139.8px;
+    right: 98.5px;
+    top: 71.87px;
     font-family: var(--lato-font);
-    font-size: 15.5px;
-    font-weight: 900;
-    line-height: 21px;
+    width: 190px;
+    height: 80px;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
     text-align: center;
+    letter-spacing: -1.8px;
   }
   .sunglasses a {
     text-decoration: none;
     color: #000;
   }
   .off40 {
-    width: 95px;
-    height: 28px;
+    width: 189px;
+    height: 56px;
     position: absolute;
-    top: 108px;
-    right: 40px;
+    top: 247.38px;
+    right: 96.5px;
     font-family: var(--roboto-font);
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 700;
-    line-height: 28.13px;
+    line-height: 56.25px;
   }
 
   .sunglasses img {
-    width: 189.66px;
-    height: 216.74px;
+    width: 455.14px;
+    height: 520.12px;
     display: block;
     position: absolute;
     bottom: 0;
+  }
+  .best-sellers {
+    width: 1, 540px;
+    height: 784px;
+    background-color: #e9e9e9;
+    padding: 70px 110px;
+  }
+  .products {
+    display: flex;
+    width: 1, 320px;
+    height: 407px;
+    gap: 35px;
+  }
+  .product-main-box {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 303.75px;
+    height: 407px;
+  }
+  .product-box {
+    width: 303.75px;
+    height: 347px;
+    margin-bottom: 16px;
+    padding: 0;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 24px;
+  }
+
+  .favorit-logo {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 17.92px;
+    right: 16.99px;
+  }
+  .off-price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 41px;
+    height: 20px;
+    padding: 3px 6px 3px 6px;
+    border-radius: 6px;
+    background-color: #3a5e46;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+  }
+  .off-price p {
+    font-family: var(--roboto-font);
+    color: #fff;
+    font-size: 12px;
+    font-weight: 100;
+  }
+  .product-img {
+    width: 214.24px;
+    height: 238.99px;
+    position: absolute;
+    top: 54.01px;
+    left: 40.63px;
+  }
+  .buy {
+    width: 303.75px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .name {
+    font-family: var(--roboto-font);
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 21.09px;
+  }
+  .price-exe {
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 18.75px;
+    color: #00000033;
+    display: inline-block;
+    text-decoration: line-through;
+    margin-right: 8px;
+  }
+  .price {
+    font-family: var(--roboto-font);
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16.41px;
+    color: #00000099;
+    display: inline-block;
+  }
+  .shopping-cart-logo {
+    width: 18px;
+    height: 18px;
+  }
+  .shopping-cart-box {
+    width: 40px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: #fdde67;
+    padding: 11px;
+  }
+  footer {
+    width: 100%;
+    background-color: #3b5f47;
+    padding: 32px 15px 32px 15px;
+    gap: 10px;
+  }
+  .footer-container {
+    width: 100%;
+    height: 146px;
+    margin-bottom: 32px;
+  }
+  .footer-container h2 {
+    font-family: var(--lato-font);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 32px;
+  }
+  .counter {
+    width: 252px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+  .timer {
+    width: 54px;
+  }
+  .num {
+    width: 54px;
+    height: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #18181840;
+    border-radius: 8px;
+    margin-bottom: 12px;
+  }
+  .num p {
+    font-family: var(--roboto-font);
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+  }
+  .unit {
+    font-family: var(--roboto-font);
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14.06px;
+    text-align: center;
+    color: #fff;
   }
 }
